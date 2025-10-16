@@ -1,4 +1,4 @@
-# Project (P5) Template: Open Vocabulary Object Detection
+# Project (P5) Template: Open Vocabulary Object Detection (OVOD)
 
 ## Project Overview
 
