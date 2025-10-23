@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Traditional detectors (like YOLO or Faster-RCNN) classify only objects they were trained on, a **closed vocabulary**. **OVOD** extends this by using **text embeddings** (from CLIP or similar models) that encode semantic meaning. Thus, the model can detect **new categories** via **cosine similarity** between image regions and text embeddings. In this project,  you will implement a complete OVOD pipeline using the ![EnvoDat dataset](https://linusnep.github.io/EnvoDat/). You will:
+Traditional detectors (like YOLO or Faster-RCNN) classify only objects they were trained on, a **closed vocabulary**. **OVOD** extends this by using **text embeddings** (from CLIP or similar models) that encode semantic meaning. Thus, the model can detect **new categories** via **cosine similarity** between image regions and text embeddings. In this project,  you will implement a complete OVOD pipeline using the [EnvoDat dataset](https://linusnep.github.io/EnvoDat/). You will:
 
 1. **Train** a base detector on a subset of categories (seen classes)
 2. **Evaluate** its ability to detect both seen and unseen objects
